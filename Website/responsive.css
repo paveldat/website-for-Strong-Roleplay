@@ -1,0 +1,341 @@
+
+@media (max-width: 1077px) {
+
+	.container {
+		margin: 0 24px;
+		width: auto;
+	}
+
+	#slideshow .container {
+		margin: 0;
+		width: auto;
+	}
+
+	#slideshow .video-bg {
+		background-image: url(../images/slideshow-video-bg.png);
+		background-position: 50% 0;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
+	}
+
+	#slideshow .video-bg div {
+		display: none;
+	}
+
+	#slideshow .overlay {
+		background: none;
+		overflow: hidden;
+	}
+
+	#slideshow .michael-trevor {
+		top: auto;
+		bottom: -5px;
+	}
+
+	#how-to-start {
+		padding-bottom: 48px;
+		height: auto;
+		background-position: 50% 0;
+		background-size: auto 100%;
+	}
+
+	#how-to-start h2 {
+		padding: 48px 0 24px;
+	}
+
+	#how-to-start .item {
+		display: block;
+		margin: 0 auto 24px;
+		width: auto;
+		max-width: 328px;
+		background: #fff;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+	}
+
+	#news {
+		padding: 0 0 48px;
+	}
+
+	#news h2 {
+		padding-top: 48px;
+	}
+
+	.article {
+		padding-bottom: 48px;
+	}
+
+	.blog .list-news {
+		margin: 0 12px;
+		width: auto;
+	}
+
+	.blog .item .wrapper {
+		padding: 0 12px;
+	}
+}
+
+@media (max-width: 959px) {
+
+	#header {
+		margin: 0;
+		padding: 32px 0 !important;
+	}
+
+	.logo {
+		text-align: center;
+		position: static;
+	}
+
+	.main-menu,
+	.mini-profile {
+		display: none;
+	}
+
+	.mobile-menu-btn {
+		display: block;
+	}
+
+	#slideshow {
+		margin-bottom: 48px;
+	}
+
+	#slideshow .video,
+	#slideshow .video-bg,
+	#slideshow .overlay {
+		height: 722px;
+	}
+
+	#slideshow .caption {
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		position: absolute;
+		top: 40px;
+		left: 0;
+	}
+
+	#slideshow .caption h1 {
+		margin-bottom: 24px;
+	}
+
+	#slideshow .play-video a {
+		padding: 62px 0 0 0;
+		background-position: 50% 0;
+	}
+
+	#slideshow .play-video a br {
+		content: "";
+	}
+
+	#slideshow .michael-trevor {
+		width: 100%;
+		text-align: center;
+		right: 0;
+	}
+
+	#slideshow .michael-trevor img {
+		height: 406px;
+	}
+
+	.start-btn {
+		margin-left: -168px;
+		top: 595px;
+		left: 50%;
+		right: auto;
+	}
+
+	.list-servers {
+		padding: 132px 0 0 8px;
+	}
+
+	.list-servers .item {
+		margin-bottom: 16px;
+		width: 20%;
+		text-align: center;
+	}
+
+	.list-servers .item .name {
+		padding-left: 0;
+	}
+
+	.list-servers .item .name:before {
+		display: inline-block;
+		margin-right: 8px;
+		position: static;
+	}
+
+	.list-bonuses {
+		width: auto;
+	}
+
+	.list-bonuses .item {
+		margin-right: 0;
+		width: 33.3%;
+	}
+
+	.list-bonuses .item .wrapper {
+		padding: 0 10px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.list-servers .item {
+		width: 33.3%;
+	}
+
+	.article,
+	.pathway {
+		max-width: 480px;
+	}
+	
+	.list-bonuses .item,
+	.page-donate .site-form,
+	.donate-products {
+		float: none !important;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.list-bonuses .item .wrapper {
+		padding: 0;
+	}
+
+	.list-bonuses .points {
+		background-size: 100% auto
+	}
+
+	.page-profile .avatar,
+	.page-profile .info {
+		float: none;
+	}
+
+	.page-profile .avatar {
+		margin-bottom: 16px;
+	}
+
+	.page-profile .avatar .image {
+		width: auto;
+	}
+
+	.page-profile .avatar .links li {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	#footer .moduletable {
+		width: 50%;
+	}
+
+	.social-block li {
+		margin: 0 12px;
+	}
+
+	.blog .item {
+		width: 50%;
+	}
+
+}
+
+@media (max-width: 479px) {
+
+	#slideshow .caption h1 {
+		font-size: 38px;
+		line-height: 50px;
+	}
+
+	.list-servers .item {
+		width: 50%;
+	}
+
+	#join-us {
+		font: 20px/36px 'pantonsemibold', sans-serif;
+	}
+
+	#join-us h2 {
+		font: 28px/36px 'pantonbold', sans-serif;
+	}
+
+	#footer .moduletable {
+		width: 100%;
+	}
+
+	.copyright {
+		text-align: left;
+	}
+
+	.blog .item {
+		width: 100%;
+	}
+
+	#news .item .btn,
+	.blog .item .btn {
+		padding: 0;
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 376px) {
+
+	.start-btn {
+		margin-left: -150px;
+		width: 300px;
+		height: 259px;
+		background-size: 300px 259px;
+	}
+
+	.start-btn a {
+		width: 244px;
+		height: 209px;
+		left: 30px;
+	}
+
+	.start-btn span {
+		padding-top: 130px;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	#mobile-menu .account .btn {
+		padding: 0 70px 0 94px;
+		background-position: 70px 16px;
+	}
+
+	#slideshow .video,
+	#slideshow .video-bg,
+	#slideshow .overlay {
+		height: 652px;
+	}
+
+	#slideshow .caption h1 {
+		font-size: 32px;
+		line-height: 44px;
+	}
+
+	#slideshow .michael-trevor img {
+		width: 100%;
+		height: auto;
+	}
+
+	.start-btn {
+		top: 545px;
+	}
+
+	.page-profile .avatar .links li {
+		display: block;
+		margin: 0;
+	}
+
+	.page-profile .chage-params a,
+	.page-profile .clear-varns a {
+		font: 16px/20px 'pantonbold', sans-serif;
+	}
+
+}

@@ -1,0 +1,1337 @@
+.rate_main_one      { background: #fff7e2; }
+.rate_slide_one     { background: #f9ebca; }
+.rate_main_two      { background: #f9ebca; }
+.rate_slide_two     { background: #efddb3; }
+.rate_main_three    { background: #efddb3; }
+.rate_slide_three   { background: #e6d2a2; }
+.rate_main_four     { background: #e6d2a2; }
+.rate_slide_four    { background: #d8c28d; }
+.rate_main_five     { background: #d8c28d; }
+.rate_slide_five    { background: #d2b776; }
+.rate_main_six      { background: #d2b776; }
+.rate_slide_six     { background: #bfa668; }
+.rate_main_seven    { background: #bfa668; }
+.rate_slide_seven   { background: #d2b161; }
+.rate_main_eight    { background: #d2b161; }
+.rate_slide_eight   { background: #e2b64c; }
+.rate_main_nine     { background: #e2b64c; }
+.rate_slide_nine    { background: #f1c150; }
+.rate_main_ten      { background: #f1c150; }
+.rate_slide_ten     { background: #ffcc4a; }
+.fl_left            { float: left; }
+.fl_right           { float: right; }
+.fixed              { position: fixed; }
+.absolute           { position: absolute; }
+.hidden             { visibility: hidden; }
+.visible            { visibility: visible; }
+.canvas             { position: relative; z-index: 1 }
+.nav_event          { color: red !important; }
+
+quote{
+    display: block;
+    background: oldlace;
+    padding: 30px 35px;
+    margin-top: 15px;
+}
+
+#dark_bg{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 101;
+}
+
+.blured {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    background: url('/images/icons/viewbox_close_icon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.join_wrapper {
+    display: block;
+    width: 320px;
+    margin: auto;
+}
+.join_wrapper.vih {
+    display: block;
+}
+.join_wrapper.vics { 
+    display: block; 
+}
+.join_wrapper .join_text {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    color: #c1c1c1;
+}
+.join_wrapper .join_addr {
+    display: block;
+    margin: 10px 0 0;
+    padding: 13px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    background: #2e2e2e;
+    border: 1px solid #f04f3b;
+    border-radius: 2px;
+}
+.join_wrapper .join_addr span {
+    cursor: pointer;
+}
+
+.video_wrapper {
+    display: block;
+    background: #3e3e3e;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+}
+
+div.slist{
+    display: none;
+    position: absolute;
+    margin-left: 9px;
+    width: 253px;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px -3px black;
+    z-index: 102;
+    overflow: hidden;
+}
+div.slist li{
+    display: block;
+}
+div.slist li a{
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #7b7b7b;
+    padding: 9px 11px;
+    border-top: 1px solid rgb(247, 247, 247);
+}
+div.slist li a:hover{
+    color: #000000;
+}
+a.slist{
+    display: block;
+    position: relative;
+    width: 240px;
+    font-size: 16px;
+    background: white;
+    border: 0;
+    padding: 13px 15px 11px;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+div.slist.gray{
+    display: none;
+    position: absolute;
+    margin-left: 9px;
+    width: 253px;
+    background: #efefef;
+    box-shadow: 2px 2px 4px -3px black;
+    z-index: 102;
+    overflow: hidden;
+}
+div.slist.gray li{
+    display: block;
+}
+div.slist.gray li a{
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #7d7d7d;
+    padding: 9px 11px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+div.slist.gray li a:hover{
+    color: #000000;
+}
+a.slist.gray{
+    display: block;
+    position: relative;
+    width: 240px;
+    font-size: 16px;
+    background: #efefef;
+    border: 0;
+    padding: 13px 15px 11px;
+    border-radius: 4px;
+    z-index: 100;
+}
+
+div.slist.new_ticket{
+    display: none;
+    position: absolute;
+    margin-left: 9px;
+    width: 323px;
+    background: #efefef;
+    box-shadow: 2px 2px 4px -3px black;
+    z-index: 102;
+    overflow: hidden;
+}
+div.slist.new_ticket li{
+    display: block;
+}
+div.slist.new_ticket li a{
+    display: block;
+    text-transform: none;
+    font-size: 12px;
+    color: #7d7d7d;
+    padding: 6px 10px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+div.slist.new_ticket li a:hover{
+    color: #000000;
+}
+a.slist.new_ticket{
+    display: block;
+    width: 310px;
+    position: relative;
+    font-size: 16px;
+    background: #efefef;
+    border: 0;
+    padding: 13px 15px 11px;
+    border-radius: 4px;
+    z-index: 100;
+}
+
+.audio_slider{
+    display: block;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.audio_slider .slider_slide{
+    display: block;
+    background: #e2e2e2;
+    height: 2px;
+    width: 78px;
+    border-radius: 30px;
+}
+.audio_slider .slider_slide .slider_amount{
+    display: block;
+    height: 100%;
+    background: black;
+    border-radius: 30px;
+}
+.audio_slider .slider_slide .slider_handler{
+    position: relative;
+    opacity: 0;
+    top: -6px;
+    margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    background: #ecba3e;
+    border-radius: 40px;
+}
+.audio_slider:hover .slider_slide .slider_handler{
+    opacity: 1;
+}
+
+.simple-switch-outter {
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 20px;
+    box-sizing: content-box;
+    background-clip: content-box;
+}
+.simple-switch-outter .simple-switch {
+    display: none;
+}
+.simple-switch-outter .simple-switch-circle {
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    height: 20px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+.simple-switch-outter.unchecked {
+    box-shadow: #dfdfdf 0px 0px 0px 0px inset;
+    border-color: #dfdfdf;
+    transition: border 0.4s, box-shadow 0.4s;
+    background-color: #ffffff;
+}
+.simple-switch-outter.unchecked .simple-switch-circle {
+    left: 0px;
+    transition: background-color 0.4s, left 0.2s;
+}
+.simple-switch-outter.checked {
+    border-color: #64bd63;
+    box-shadow: #64bd63 0px 0px 0px 16px inset;
+    transition: border 0.4s, box-shadow 0.4s, background-color 1.2s;
+    background-color: #64bd63;
+}
+.simple-switch-outter.checked .simple-switch-circle {
+    left: 20px;
+    transition: background-color 0.4s, left 0.2s;
+    background-color: #ffffff;
+}
+
+.tt_w {
+    z-index: 100;
+    cursor: default;
+    font-size: 12.5px;
+    color: #222;
+    border-radius: 2px;
+    box-shadow: 0 0px 23px rgba(0, 0, 0, .2);
+    position: relative;
+    position: absolute;
+}
+.tt_w:after, .tt_w:before {
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+}
+.tt_w.tt_up:after, .tt_w.tt_up:before {
+    bottom: 100%}
+.tt_w.tt_down:after, .tt_w.tt_down:before {
+    top: 100%}
+.tt_w.tt_left:after, .tt_w.tt_left:before {
+    right: 100%}
+.tt_w.tt_right:after, .tt_w.tt_right:before {
+    left: 100%}
+.tt_default {
+    border-radius: 8px;
+    background: #fff;
+}
+.tt_default.tt_up:after, .tt_default.tt_up:before {
+    left: 30px;
+}
+.tt_default.tt_up:before {
+    border-width: 7px;
+    margin: 0 -7px;
+    border-bottom-color: #ffffff;
+}
+.tt_default.tt_up:after {
+    border-width: 7px;
+    margin: 0 -7px;
+    border-bottom-color: #fff;
+    -webkit-transform: translate3d(0,  0.5px,  0);
+    transform: translate3d(0,  0.5px,  0);
+}
+.tt_default.tt_down:after, .tt_default.tt_down:before {
+    left: 30px;
+}
+.tt_default.tt_down:before {
+    border-width: 7px;
+    margin: 0 -7px;
+    border-top-color: #fff;
+}
+.tt_default.tt_down:after {
+    border-width: 7px;
+    margin: 0 -7px;
+    border-top-color: #fff;
+    -webkit-transform: translate3d(0,  -0.5px,  0);
+    transform: translate3d(0,  -0.5px,  0);
+}
+.tt_default.tt_left:after, .tt_default.tt_left:before {
+    top: 50%}
+.tt_default.tt_left:before {
+    border-width: 7px;
+    margin: -7px 0;
+    border-right-color: #fff;
+}
+.tt_default.tt_left:after {
+    border-width: 7px;
+    margin: -7px 0;
+    border-right-color: #fff;
+    -webkit-transform: translate3d(0.5px,  0,  0);
+    transform: translate3d(0.5px,  0,  0);
+}
+.tt_default.tt_right:after, .tt_default.tt_right:before {
+    top: 50%}
+.tt_default.tt_right:before {
+    border-width: 7px;
+    margin: -7px 0;
+    border-left-color: #fff;
+}
+.tt_default.tt_right:after {
+    border-width: 7px;
+    margin: -7px 0;
+    border-left-color: #fff;
+    -webkit-transform: translate3d(-0.5px,  0,  0);
+    transform: translate3d(-0.5px,  0,  0);
+}
+.tt_no_shadow {
+    box-shadow: none;
+}
+.tt_w.tt_black {
+    background: #000;
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    border-radius: 3px;
+}
+.tt_w.tt_black.tt_up:after {
+    left: 20px;
+    border-width: 5px;
+    margin: 0 -5px;
+    border-bottom-color: rgba(0, 0, 0, .7);
+}
+.tt_w.tt_black.tt_down:after {
+    left: 20px;
+    border-width: 5px;
+    margin: 0 -5px;
+    border-top-color: rgba(0, 0, 0, .7);
+}
+.tt_w.tt_black.rich {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .28);
+}
+.tt_black .tt_text {
+    color: #fff;
+    font-size: 1em;
+    padding: 4px 7px 5px;
+    line-height: 1.154;
+    white-space: nowrap;
+}
+.tt_black a {
+    color: #b1daff;
+}
+.tt_black_side.tt_w.tt_black.tt_down:after {
+    top: 11px;
+    border-width: 4px;
+    margin: -4px 0;
+    border-left-color: rgba(0, 0, 0, .7);
+    border-top-color: transparent;
+    left: auto;
+    right: -8px;
+}
+.tt_black_side.tt_w.tt_black.tt_down .ttb_cont {
+    padding: 3px 7px 5px;
+}
+
+.tt_wrapped {
+    word-wrap: break-word;
+}
+
+.tt_content {
+    min-width: 235px;
+    max-width: 270px;
+    width: auto!important;
+    width: 270px;
+    padding: 16px;
+    overflow: hidden;
+}
+.tt_min_nav {
+    min-width: 80px;
+    max-width: 180px;
+    width: auto!important;
+    width: 100px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.tt_min_nav a_tt{
+    display: block;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-align: left;
+}
+.tt_min_nav a_tt:hover{
+    background: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}
+.tt_header {
+    text-align: left;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0px 0px 9px;
+    text-shadow: 0px 0px 0px white;
+}
+.tt_text {
+    text-align: left;
+    font-weight: 100;
+    line-height: 17px;
+    color: #2e2e2e;
+    text-shadow: 0px 0px 0px white;
+}
+.tt_text a {
+    text-decoration: underline;
+    color: black;
+}
+.tt_text a:hover {
+    text-decoration: none;
+}
+a_tt{
+    color: black; 
+    cursor: pointer;
+}
+
+#growls {
+    z-index: 50000;
+    position: fixed; 
+}
+#growls.default {
+    top: 10px;
+    left: 10px; 
+}
+
+.growl {
+    opacity: 1;
+    z-index: 1000000;
+    filter: alpha(opacity=80);
+    position: relative;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out; 
+}
+.growl.growl-incoming {
+    opacity: 0;
+    filter: alpha(opacity = 0); 
+}
+.growl.growl-outgoing {
+    opacity: 0;
+    filter: alpha(opacity = 0); 
+}
+.growl.growl-default {
+    width: 250px;
+    padding: 20px;
+    margin: 15px; 
+}
+.growl.growl-error {
+    color: white;
+    background: #C0392B; 
+}
+.growl.growl-notice {
+    color: white;
+    background: #2ECC71; 
+}
+.growl.growl-warning {
+    color: white;
+    background: #3c3c3c; 
+}
+.growl .growl-close {
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    font-family: helvetica, verdana, sans-serif; 
+}
+.growl .growl-title {
+    font-size: 18px;
+    line-height: 24px; 
+}
+.growl .growl-message {
+    font-size: 14px;
+    line-height: 18px; 
+}
+
+.hID_1{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px 0px;
+    background-size: 100%;
+}
+.hID_2{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -121px;
+    background-size: 100%;
+}
+.hID_3{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -242px;
+    background-size: 100%;
+}
+.hID_4{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -363px;
+    background-size: 100%;
+}
+.hID_5{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -484px;
+    background-size: 100%;
+}
+.hID_6{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -605px;
+    background-size: 100%;
+}
+.hID_7{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -725px;
+    background-size: 100%;
+}
+.hID_8{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -846px;
+    background-size: 100%;
+}
+.hID_9{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -966px;
+    background-size: 100%;
+}
+.hID_10{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1087px;
+    background-size: 100%;
+}
+.hID_11{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1208px;
+    background-size: 100%;
+}
+.hID_12{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1329px;
+    background-size: 100%;
+}
+.hID_13{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1449px;
+    background-size: 100%;
+}
+.hID_14{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1570px;
+    background-size: 100%;
+}
+.hID_15{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1691px;
+    background-size: 100%;
+}
+.hID_16{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1811px;
+    background-size: 100%;
+}
+.hID_17{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1932px;
+    background-size: 100%;
+}
+.hID_18{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2053px;
+    background-size: 100%;
+}
+.hID_19{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2173px;
+    background-size: 100%;
+}
+.hID_20{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2294px;
+    background-size: 100%;
+}
+.hID_21{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2415px;
+    background-size: 100%;
+}
+.hID_22{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2536px;
+    background-size: 100%;
+}
+.hID_23{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2656px;
+    background-size: 100%;
+}
+.hID_24{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2777px;
+    background-size: 100%;
+}
+.hID_25{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2898px;
+    background-size: 100%;
+}
+.hID_26{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3018px;
+    background-size: 100%;
+}
+.hID_27{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3138px;
+    background-size: 100%;
+}
+.hID_28{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3259px;
+    background-size: 100%;
+}
+.hID_29{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3380px;
+    background-size: 100%;
+}
+.hID_30{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3501px;
+    background-size: 100%;
+}
+.hID_31{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3622px;
+    background-size: 100%;
+}
+.hID_32{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3742px;
+    background-size: 100%;
+}
+.hID_33{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3863px;
+    background-size: 100%;
+}
+.hID_34{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3984px;
+    background-size: 100%;
+}
+.hID_35{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4104px;
+    background-size: 100%;
+}
+.hID_36{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4224px;
+    background-size: 100%;
+}
+.hID_37{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4345px;
+    background-size: 100%;
+}
+.hID_38{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4466px;
+    background-size: 100%;
+}
+.hID_39{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4587px;
+    background-size: 100%;
+}
+.hID_40{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4707px;
+    background-size: 100%;
+}
+.hID_41{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4828px;
+    background-size: 100%;
+}
+.hID_42{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4949px;
+    background-size: 100%;
+}
+.hID_43{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5070px;
+    background-size: 100%;
+}
+.hID_44{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5190px;
+    background-size: 100%;
+}
+.hID_45{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5311px;
+    background-size: 100%;
+}
+.hID_46{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5431px;
+    background-size: 100%;
+}
+.hID_47{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5552px;
+    background-size: 100%;
+}
+.hID_48{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5672px;
+    background-size: 100%;
+}
+.hID_49{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5793px;
+    background-size: 100%;
+}
+.hID_50{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5914px;
+    background-size: 100%;
+}
+.hID_51{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6034px;
+    background-size: 100%;
+}
+.hID_52{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6155px;
+    background-size: 100%;
+}
+.hID_53{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6276px;
+    background-size: 100%;
+}
+.hID_54{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6397px;
+    background-size: 100%;
+}
+.hID_55{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6518px;
+    background-size: 100%;
+}
+.hID_56{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6637px;
+    background-size: 100%;
+}
+.hID_57{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6759px;
+    background-size: 100%;
+}
+.hID_58{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6880px;
+    background-size: 100%;
+}
+.hID_59{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7000px;
+    background-size: 100%;
+}
+.hID_60{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7121px;
+    background-size: 100%;
+}
+.hID_61{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7241px;
+    background-size: 100%;
+}
+.hID_62{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7362px;
+    background-size: 100%;
+}
+.hID_63{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7483px;
+    background-size: 100%;
+}
+.hID_64{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7603px;
+    background-size: 100%;
+}
+.hID_65{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7724px;
+    background-size: 100%;
+}
+.hID_66{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7844px;
+    background-size: 100%;
+}
+.hID_67{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7965px;
+    background-size: 100%;
+}
+.hID_68{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8086px;
+    background-size: 100%;
+}
+.hID_69{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8206px;
+    background-size: 100%;
+}
+.hID_70{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8327px;
+    background-size: 100%;
+}
+.hID_71{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8448px;
+    background-size: 100%;
+}
+.hID_72{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8569px;
+    background-size: 100%;
+}
+.hID_73{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8689px;
+    background-size: 100%;
+}
+.hID_74{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8810px;
+    background-size: 100%;
+}
+.hID_75{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8931px;
+    background-size: 100%;
+}
+.hID_76{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9050px;
+    background-size: 100%;
+}
+.hID_77{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9172px;
+    background-size: 100%;
+}
+.hID_78{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9292px;
+    background-size: 100%;
+}
+.hID_79{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9413px;
+    background-size: 100%;
+}
+.hID_80{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9534px;
+    background-size: 100%;
+}
+.hID_81{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9654px;
+    background-size: 100%;
+}
+.hID_82{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9775px;
+    background-size: 100%;
+}
+.hID_83{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9896px;
+    background-size: 100%;
+}
+.hID_84{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10016px;
+    background-size: 100%;
+}
+.hID_85{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10137px;
+    background-size: 100%;
+}
+.hID_86{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10257px;
+    background-size: 100%;
+}
+.hID_87{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10378px;
+    background-size: 100%;
+}
+.hID_88{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10499px;
+    background-size: 100%;
+}
+.hID_89{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10620px;
+    background-size: 100%;
+}
+.hID_90{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10740px;
+    background-size: 100%;
+}
+.hID_91{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10861px;
+    background-size: 100%;
+}
+.hID_92{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -10982px;
+    background-size: 100%;
+}
+.hID_93{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11103px;
+    background-size: 100%;
+}
+.hID_94{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11223px;
+    background-size: 100%;
+}
+.hID_95{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11344px;
+    background-size: 100%;
+}
+.hID_96{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11465px;
+    background-size: 100%;
+}
+.hID_97{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11585px;
+    background-size: 100%;
+}
+.hID_98{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -11827px;
+    background-size: 100%;
+}
+
+.hID_1_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px 0px;
+    background-size: 100px;
+}
+.hID_2_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -101px;
+    background-size: 100px;
+}
+.hID_3_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -202px;
+    background-size: 100px;
+}
+.hID_4_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -303px;
+    background-size: 100px;
+}
+.hID_5_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -403px;
+    background-size: 100px;
+}
+.hID_6_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -504px;
+    background-size: 100px;
+}
+.hID_7_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -604px;
+    background-size: 100px;
+}
+.hID_8_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -705px;
+    background-size: 100px;
+}
+.hID_9_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -805px;
+    background-size: 100px;
+}
+.hID_10_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -906px;
+    background-size: 100px;
+}
+.hID_11_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1007px;
+    background-size: 100px;
+}
+.hID_12_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1107px;
+    background-size: 100px;
+}
+.hID_13_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1208px;
+    background-size: 100px;
+}
+.hID_14_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1308px;
+    background-size: 100px;
+}
+.hID_15_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1409px;
+    background-size: 100px;
+}
+.hID_16_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1509px;
+    background-size: 100px;
+}
+.hID_17_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1610px;
+    background-size: 100px;
+}
+.hID_18_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1711px;
+    background-size: 100px;
+}
+.hID_19_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1811px;
+    background-size: 100px;
+}
+.hID_20_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -1912px;
+    background-size: 100px;
+}
+.hID_21_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2012px;
+    background-size: 100px;
+}
+.hID_22_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2113px;
+    background-size: 100px;
+}
+.hID_23_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2214px;
+    background-size: 100px;
+}
+.hID_24_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2314px;
+    background-size: 100px;
+}
+.hID_25_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2415px;
+    background-size: 100px;
+}
+.hID_26_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2515px;
+    background-size: 100px;
+}
+.hID_27_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2615px;
+    background-size: 100px;
+}
+.hID_28_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2716px;
+    background-size: 100px;
+}
+.hID_29_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2817px;
+    background-size: 100px;
+}
+.hID_30_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -2917px;
+    background-size: 100px;
+}
+.hID_31_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3018px;
+    background-size: 100px;
+}
+.hID_32_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3118px;
+    background-size: 100px;
+}
+.hID_33_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3219px;
+    background-size: 100px;
+}
+.hID_34_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3320px;
+    background-size: 100px;
+}
+.hID_35_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3420px;
+    background-size: 100px;
+}
+.hID_36_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3520px;
+    background-size: 100px;
+}
+.hID_37_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3621px;
+    background-size: 100px;
+}
+.hID_38_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3721px;
+    background-size: 100px;
+}
+.hID_39_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3822px;
+    background-size: 100px;
+}
+.hID_40_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -3923px;
+    background-size: 100px;
+}
+.hID_41_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4023px;
+    background-size: 100px;
+}
+.hID_42_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4124px;
+    background-size: 100px;
+}
+.hID_43_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4224px;
+    background-size: 100px;
+}
+.hID_44_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4325px;
+    background-size: 100px;
+}
+.hID_45_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4426px;
+    background-size: 100px;
+}
+.hID_46_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4526px;
+    background-size: 100px;
+}
+.hID_47_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4626px;
+    background-size: 100px;
+}
+.hID_48_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4727px;
+    background-size: 100px;
+}
+.hID_49_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4828px;
+    background-size: 100px;
+}
+.hID_50_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -4928px;
+    background-size: 100px;
+}
+.hID_51_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5029px;
+    background-size: 100px;
+}
+.hID_52_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5129px;
+    background-size: 100px;
+}
+.hID_53_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5230px;
+    background-size: 100px;
+}
+.hID_54_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5331px;
+    background-size: 100px;
+}
+.hID_55_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5431px;
+    background-size: 100px;
+}
+.hID_56_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5531px;
+    background-size: 100px;
+}
+.hID_57_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5632px;
+    background-size: 100px;
+}
+.hID_58_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5733px;
+    background-size: 100px;
+}
+.hID_59_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5833px;
+    background-size: 100px;
+}
+.hID_60_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -5934px;
+    background-size: 100px;
+}
+.hID_61_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6035px;
+    background-size: 100px;
+}
+.hID_62_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6135px;
+    background-size: 100px;
+}
+.hID_63_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6236px;
+    background-size: 100px;
+}
+.hID_64_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6336px;
+    background-size: 100px;
+}
+.hID_65_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6437px;
+    background-size: 100px;
+}
+.hID_66_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6537px;
+    background-size: 100px;
+}
+.hID_67_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6638px;
+    background-size: 100px;
+}
+.hID_68_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6738px;
+    background-size: 100px;
+}
+.hID_69_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6839px;
+    background-size: 100px;
+}
+.hID_70_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -6939px;
+    background-size: 100px;
+}
+.hID_71_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7040px;
+    background-size: 100px;
+}
+.hID_72_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7141px;
+    background-size: 100px;
+}
+.hID_73_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7241px;
+    background-size: 100px;
+}
+.hID_74_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7342px;
+    background-size: 100px;
+}
+.hID_75_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7442px;
+    background-size: 100px;
+}
+.hID_76_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7542px;
+    background-size: 100px;
+}
+.hID_77_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7643px;
+    background-size: 100px;
+}
+.hID_78_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7744px;
+    background-size: 100px;
+}
+.hID_79_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7844px;
+    background-size: 100px;
+}
+.hID_80_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -7945px;
+    background-size: 100px;
+}
+.hID_81_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8046px;
+    background-size: 100px;
+}
+.hID_82_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8146px;
+    background-size: 100px;
+}
+.hID_83_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8247px;
+    background-size: 100px;
+}
+.hID_84_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8347px;
+    background-size: 100px;
+}
+.hID_85_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8448px;
+    background-size: 100px;
+}
+.hID_86_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8548px;
+    background-size: 100px;
+}
+.hID_87_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8649px;
+    background-size: 100px;
+}
+.hID_88_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8749px;
+    background-size: 100px;
+}
+.hID_89_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8850px;
+    background-size: 100px;
+}
+.hID_90_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -8950px;
+    background-size: 100px;
+}
+.hID_91_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9051px;
+    background-size: 100px;
+}
+.hID_92_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9152px;
+    background-size: 100px;
+}
+.hID_93_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9252px;
+    background-size: 100px;
+}
+.hID_94_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9353px;
+    background-size: 100px;
+}
+.hID_95_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9453px;
+    background-size: 100px;
+}
+.hID_96_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9554px;
+    background-size: 100px;
+}
+.hID_97_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9755px;
+    background-size: 100px;
+}
+.hID_98_rw{
+    background: url('/images/roulette-icons.png?8') no-repeat 0px -9856px;
+    background-size: 100px;
+}
