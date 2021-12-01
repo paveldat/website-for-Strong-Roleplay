@@ -1,0 +1,566 @@
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	
+	padding-bottom: 160px;
+}
+
+.container{
+width: 1100px;
+margin: 0 auto;
+}
+
+.logo{
+
+float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 50px;
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 45px;
+}
+
+.menu a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}	
+
+.menu a:hover{
+color: #23cd9b;
+}
+
+
+
+
+
+#slider { /*положение слайдера*/
+    position: relative;
+	text-align: center;
+    top: -150px;
+}
+
+#slider{ /*центровка слайдера*/
+	margin: 0 auto;
+}
+
+#slides article{ /*все изображения справа друг от доруга*/
+	width: 20%;
+	float: left;
+}
+
+#slides .image{ /*устанавливает общий размер блока с изображениями*/
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow{ /*сркывает все, что находится за пределами этого блока*/
+	width: 100%;
+	overflow: hidden;
+}
+
+article img{ /*размер изображений слайдера*/
+	width: 100%;
+}
+
+#desktop:checked ~ #slider{ /*размер всего слайдера*/
+	max-width: 960px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(5), 
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3),
+#switch5:checked ~ #controls label:nth-child(4){
+	background: url('img/prev.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: left;
+	margin: 0 0 0 -84px; /*сдвиг влево*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2), 
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(5),
+#switch5:checked ~ #controls label:nth-child(1){
+	background: url('img/next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	float: right;
+	margin: 0 -84px 0 0; /*сдвиг вправо*/
+	display: block;
+	height: 68px;
+	width: 68px;
+}
+
+label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+	cursor: pointer;
+}
+
+.all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
+	display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image{
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image{
+	margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image{
+	margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image{
+	margin-left: -300%;
+}
+
+#switch5:checked ~ #slides .image{
+	margin-left: -400%;
+}
+
+#controls{ /*положение блока всех управляющих элементов*/
+	margin: -25% 0 0 0;
+	width: 100%;
+	height: 50px;
+}
+
+#active label{ /*стиль отдельного переключателя*/
+	border-radius: 10px; /*скругление углов*/
+	display: inline-block; /*расположение в строку*/
+	width: 15px;
+	height: 15px;
+	background: #bbb;
+}
+
+#active{ /*расположение блока с переключателями*/
+	margin: 23% 0 0;
+	text-align: center;
+}
+
+#active label:hover{ /*поведение чекбокса при наведении*/
+	background: #76c8ff;
+	border-color: #777 !important; /*выполнение в любом случае*/
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5){
+	background: #18a3dd;
+	border-color: #18a3dd !important;
+}
+
+#slides .image{ /*анимация пролистывания изображений*/
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover{ /*прозрачность стрелок при наведении*/
+	opacity: 0.6;
+}
+
+#controls label{ /*прозрачность стрелок при отводе курсора*/
+	transition: opacity 0.2s ease-out;
+
+}
+
+
+
+#mobile-menu {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: rgba(32, 36, 40, 0.96);
+	position: fixed;
+	top: -100%;
+	left: 0;
+	z-index: 100;
+	-webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+}
+
+#mobile-menu.open {
+	top: 0;
+}
+
+#mobile-menu ul {
+	padding-top: 104px;
+}
+
+#mobile-menu li {
+	display: block;
+	font: 24px/72px 'pantonbold', sans-serif;
+}
+
+#mobile-menu li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#mobile-menu .account {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 24px;
+}
+
+#mobile-menu .account .btn {
+	padding: 0 90px 0 114px;
+	height: 48px;
+	line-height: 48px;
+	background-position: 90px 16px;
+	-webkit-border-radius: 24px;
+	   -moz-border-radius: 24px;
+	     -o-border-radius: 24px;
+	        border-radius: 24px;
+}
+
+#mobile-menu .close {
+	display: none;
+	width: 16px;
+	height: 16px;
+	background: url(img/ic-x.png) no-repeat 0 0;
+	background-size: 16px 16px;
+	position: fixed;
+	top: 34px;
+	left: 24px;
+	z-index: 200;
+}
+
+#mobile-menu.open .close {
+	display: block;
+}
+
+.mobile-menu-btn {
+	display: none;
+	padding: 0;
+	width: 16px;
+	height: 12px;
+	overflow: hidden;
+	background: none;
+	border: none;
+	outline: none;
+	position: absolute;
+	top: 34px;
+	left: 24px;
+}
+
+.mobile-menu-btn span {
+	display: block;
+	margin-bottom: 3px;
+	width: 16px;
+	height: 2px;
+	background: #343840;
+}
+
+
+.containerl {
+    margin: auto;
+    width: 1038px;
+}
+div {
+    display: block;
+}
+
+#how-to-start {
+    height: 576px;
+    text-align: center;
+    background: #30293d url(img/how-to-start-bg.png) no-repeat 0 50%;
+    background-size: 100% auto;
+    overflow: hidden;
+}
+
+body {
+    font: 16px/32px 'pantonsemibold', sans-serif;
+    color: #343840;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+body {
+    line-height: 1;
+}
+
+.container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+element.style {
+    visibility: visible;
+}
+
+#how-to-start {
+	height: 576px;
+	text-align: center;
+	background: #30293d url(img/how-to-start-bg.png) no-repeat 0 50%;
+	background-size: 100% auto;
+	overflow: hidden;
+}
+
+#how-to-start h2 {
+	padding: 72px 0 32px;
+	font: 32px/40px 'pantonbold', sans-serif;
+	color: #fff;
+}
+
+#how-to-start .item {
+	display: inline-block;
+	height: 360px;
+	vertical-align: top;
+}
+
+#how-to-start .item h3 {
+	padding-top: 72px;
+	font: 24px/32px 'pantonbold', sans-serif;
+	letter-spacing: -0.5px;
+	background-position: 50% 36px;
+	background-repeat: no-repeat;
+}
+
+/* Install */
+#install {
+	width: 328px;
+	font: 14px/24px 'pantonsemibold', sans-serif;
+	background: url(img/how-to-start-1.png) no-repeat 0 0;
+	background-size: 328px 360px;
+}
+
+#install h3 {
+	margin-bottom: 7px;
+	background-image: url(img/ic-install.svg);
+}
+
+#install .version {
+	display: inline-block;
+	margin-bottom: 23px;
+	width: 104px;
+	height: 24px;
+	font: 12px/24px 'pantonbold', sans-serif;
+	color: #484d57;
+	background: #f0f2f5;
+	-webkit-border-radius: 16px;
+	   -moz-border-radius: 16px;
+	     -o-border-radius: 16px;
+	        border-radius: 16px;
+}
+
+#install p {
+	margin: 0 auto 25px;
+	max-width: 266px;
+}
+
+#install .btn {
+	padding: 0 22px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	-webkit-border-radius: 20px;
+	   -moz-border-radius: 20px;
+	     -o-border-radius: 20px;
+	        border-radius: 20px;
+}
+
+/* Start Game */
+#start-game {
+	margin: 0 -3px 0 4px;
+	width: 336px;
+	font: 16px/32px 'pantonsemibold', sans-serif;
+	background: url(img/how-to-start-2.png) no-repeat 0 0;
+	background-size: 336px 360px;
+}
+
+#start-game h3 {
+	margin-bottom: 8px;
+	background-image: url(img/ic-start-game.svg);
+}
+
+#start-game p {
+	margin: 0 auto 72px;
+	max-width: 266px;
+}
+
+#start-game label {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#start-game input {
+	padding: 6px 0;
+	width: 214px;
+	font: 16px/24px 'pantonsemibold', sans-serif;
+	text-indent: 12px;
+	background: #fff;
+	border: 1px solid #ebedf0;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	     -o-border-radius: 4px;
+	        border-radius: 4px;
+}
+
+/* Choose Server */
+#choose-server {
+	width: 336px;
+	font: 16px/32px 'pantonsemibold', sans-serif;
+	background: url(img/how-to-start-3.png) no-repeat 0 0;
+	background-size: 336px 360px;
+}
+
+#choose-server h3 {
+	margin-bottom: 8px;
+	background-image: url(img/ic-servers.svg);
+}
+
+#choose-server ul {
+	margin: 10px 0;
+}
+
+#choose-server ul li {
+	display: block;
+	line-height: 24px;
+}
+
+#choose-server ul li span {
+	display: inline-block;
+	margin-right: 4px;
+	color: #acb1bd;
+}
+
+#choose-server .connect span {
+	margin-left: 6px;
+	padding-left: 20px;
+	font-family: 'pantonbold', sans-serif;
+	color: #75b816;
+	background: url(img/ic-connect.svg) no-repeat 0 2px;
+}
+
+
+#join-us {
+	height: 352px;
+	font: 24px/40px 'pantonsemibold', sans-serif;
+	text-align: center;
+	color: #484d57;
+	background: #ebedf0 url(img/vk.jpg) no-repeat 50% 0;
+	background-size: auto 352px;
+}
+
+#join-us h2 {
+	margin-bottom: 8px;
+	padding-top: 64px;
+	font: 32px/40px 'pantonbold', sans-serif;
+	color: #343840;
+}
+
+#join-us .avatars {
+	padding: 16px 0 32px;
+}
+
+#join-us .btn {
+	padding: 0 24px;
+	height: 48px;
+	font-size: 18px;
+	line-height: 48px;
+	-webkit-border-radius: 24px;
+	   -moz-border-radius: 24px;
+	     -o-border-radius: 24px;
+	        border-radius: 24px;
+	color: blue;
+	text-transform: uppercase;
+}
+
+
+#footer {
+	padding: 48px 0 32px;
+	overflow: hidden;
+	background: #30293d;
+}
+
+#footer .moduletable {
+	float: left;
+	margin-bottom: 24px;
+	width: 25%;
+}
+
+#footer .moduletable h3 {
+	margin-bottom: 8px;
+	font: 16px/24px 'pantonbold', sans-serif;
+	color: #fff;
+}
+
+/* Footer Menu */
+.footer-menu li {
+	display: block;
+	font: 14px/24px 'pantonsemibold', sans-serif;
+	color: rgba(255,255,255,0.6);
+}
+
+.footer-menu a {
+	color: rgba(255,255,255,0.6);
+}
+
+.footer-menu a:hover {
+	color: rgba(255,255,255,1);
+}
+
+/* Social Block */
+.social-block h3 {
+	margin-bottom: 16px !important;
+}
+
+.social-block li {
+	display: inline-block;
+	margin-right: 25px;
+	vertical-align: middle;
+}
+
+.social-block li a {
+	opacity: 0.6;
+}
+
+.social-block li a:hover {
+	opacity: 1;
+}
+
+
+.copyright{
+margin-top: -20px;
+margin-left: 350px;
+color: #fff;
+font-size: 14px;
+}
+
