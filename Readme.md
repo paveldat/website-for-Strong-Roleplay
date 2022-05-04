@@ -1,6 +1,5 @@
 # Task
 To write a site for the Strong-Rolepley team for the GTA Crime Russia game
-
 ## Was done
 * Site layout created
 * Donate is configured
